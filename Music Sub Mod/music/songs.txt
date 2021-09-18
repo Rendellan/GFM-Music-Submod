@@ -303,20 +303,251 @@ song = {
     	}
 	}
 }
+
+##Argentina
 song = {
-	name = "argflavor.mp3"
+	name = "argflavor1.mp3"
 	chance = {
 		factor = 1
 		modifier = {
         	factor = 100
         	tag = ARG
+			tag = ARC
+			tag = LPL
+			tag = CRT
+			tag = SBA
+			tag = ENT
     	}
     	modifier = {
     		factor = 0
-    		NOT = { tag = ARG }
+    		NOT = { 
+				tag = ARG
+				tag = ARC
+				tag = LPL
+				tag = CRT
+				tag = SBA
+				tag = ENT
+			}
     	}
 	}
 }
+
+song = {
+	name = "argflavor2.mp3"
+	chance = {
+		factor = 1
+		modifier = {
+        	factor = 100
+        	tag = ARG
+			tag = ARC
+			tag = LPL
+			tag = CRT
+			tag = SBA
+			tag = ENT
+    	}
+    	modifier = {
+    		factor = 0
+    		NOT = { 
+				tag = ARG
+				tag = ARC
+				tag = LPL
+				tag = CRT
+				tag = SBA
+				tag = ENT
+			}
+    	}
+	}
+}
+
+song = {
+	name = "argflavor3.mp3"
+	chance = {
+		factor = 1
+		modifier = {
+        	factor = 100
+        	tag = ARG
+			tag = ARC
+			tag = LPL
+			tag = CRT
+			tag = SBA
+			tag = ENT
+    	}
+    	modifier = {
+    		factor = 0
+    		NOT = { 
+				tag = ARG
+				tag = ARC
+				tag = LPL
+				tag = CRT
+				tag = SBA
+				tag = ENT
+			}
+    	}
+	}
+}
+
+song = {
+	name = "argflavor4.mp3"
+	chance = {
+		factor = 1
+		modifier = {
+        	factor = 100
+        	tag = ARG
+			tag = ARC
+			tag = LPL
+			tag = CRT
+			tag = SBA
+			tag = ENT
+    	}
+    	modifier = {
+    		factor = 0
+    		NOT = { 
+				tag = ARG
+				tag = ARC
+				tag = LPL
+				tag = CRT
+				tag = SBA
+				tag = ENT
+			}
+    	}
+	}
+}
+
+song = {
+	name = "argflavor5.mp3"
+	chance = {
+		factor = 1
+		modifier = {
+        	factor = 100
+        	tag = ARG
+			tag = ARC
+			tag = LPL
+			tag = CRT
+			tag = SBA
+			tag = ENT
+    	}
+    	modifier = {
+    		factor = 0
+    		NOT = { 
+				tag = ARG
+				tag = ARC
+				tag = LPL
+				tag = CRT
+				tag = SBA
+				tag = ENT
+			}
+    	}
+	}
+}
+
+song = {
+	name = "argflavor6.mp3"
+	chance = {
+		factor = 1
+		modifier = {
+        	factor = 100
+        	tag = ARG
+			tag = ARC
+			tag = LPL
+			tag = CRT
+			tag = SBA
+			tag = ENT
+    	}
+    	modifier = {
+    		factor = 0
+    		NOT = { 
+				tag = ARG
+				tag = ARC
+				tag = LPL
+				tag = CRT
+				tag = SBA
+				tag = ENT
+			}
+    	}
+	}
+}
+
+song = {
+	name = "argflavor7.mp3"
+	chance = {
+		factor = 1
+		modifier = {
+        	factor = 100
+        	tag = ARG
+			tag = ARC
+			tag = LPL
+			tag = CRT
+			tag = SBA
+			tag = ENT
+    	}
+    	modifier = {
+    		factor = 0
+    		NOT = { 
+				tag = ARG
+				tag = ARC
+				tag = LPL
+				tag = CRT
+				tag = SBA
+				tag = ENT
+			}
+    	}
+	}
+}
+
+song = {
+	name = "argflavor8.mp3"
+	chance = {
+		factor = 1
+		modifier = {
+        	factor = 100
+        	tag = ARG
+			tag = ARC
+			tag = LPL
+			tag = CRT
+			tag = SBA
+			tag = ENT
+    	}
+    	modifier = {
+    		factor = 0
+    		NOT = { 
+				tag = ARG
+				tag = ARC
+				tag = LPL
+				tag = CRT
+				tag = SBA
+				tag = ENT
+			}
+    	}
+	}
+}
+
+song = {
+	name = "argflavor9.mp3"
+	chance = {
+		factor = 1
+		modifier = {
+        	factor = 100
+        	tag = ARG
+			tag = ARC
+			tag = LPL
+			tag = CRT
+			tag = SBA
+			tag = ENTs
+    	}
+    	modifier = {
+    		factor = 0
+    		NOT = { 
+				tag = ARG
+				tag = ARC
+				tag = LPL
+				tag = CRT
+				tag = SBA
+				tag = ENT
+			}
+    	}
+	}
+}
+
 song = {
 	name = "Hino da Independencia.mp3"
 	chance = {
@@ -388,12 +619,7 @@ song = {
 		factor = 1
 		modifier = {
         	factor = 100
-        	OR = {
-				tag = VNZ
-				tag = CLM
-				tag = ECU
-				tag = GCO
-			}
+        	tag = VNZ
     	}
     	modifier = {
     		factor = 0
@@ -463,16 +689,11 @@ song = {
 		factor = 1
 		modifier = {
         	factor = 100
-        	OR = {
-				tag = KUK
-				tag = AUS
-				tag = AUB
-				tag = DNB
-			}
+        	tag = KUK
     	}
     	modifier = {
     		factor = 0
-    		NOT = { OR = { tag = KUK tag = AUS tag = AUB tag = DNB } }
+    		NOT = { tag = KUK }
     	}
 	}
 }
